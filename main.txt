@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(){
-	int iz = 5;
-	printf("i = %d", &i);
+	int iz = 5; //it will be printed
+	int iy = 5;
+	int ix = 5;
+	printf("i = %d", &i); //pozitive
 	return 0;
 }
